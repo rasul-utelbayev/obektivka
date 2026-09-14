@@ -1,0 +1,6 @@
+{
+  "name": "Ma'lumotnoma (Ob'ektivka) To'ldiruvchi",
+  "description": "Rasmiy Ma'lumotnoma (Ob'ektivka) va qarindoshlar ma'lumotnomasini original formatda to'ldirish va chop etish tizimi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

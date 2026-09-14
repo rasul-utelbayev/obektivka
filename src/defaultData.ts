@@ -1,0 +1,86 @@
+import { ObektivkaData } from './types';
+
+export const initialObektivkaData: ObektivkaData = {
+  fio: 'XABIBULLAEV NURSULTAN ORÍNBAEVICH',
+  currentStatusDate: '2025 yil 9-sentyabr:',
+  currentPosition: 'Berdaq nomidagi qoraqalpoq davlat universiteti Iqtisodiyot fakulteti Moliya va moliyaviy texnologiyalar bakalavr talim yónalishi talabasi',
+  photoUrl: '', // Default placeholder
+  birthDate: '05.01.2006',
+  birthPlace: "Qoraqalpog'iston Respublikasi,\nXojayli tumani",
+  nationality: 'Qoraqalpoq',
+  partyMembership: 'Yoq',
+  education: 'O’rta-mahsus',
+  graduated: '2024 y. Nukus shahar "Awmet" nodavlat talim muassasi',
+  specialization: 'Aniq fanlar',
+  academicDegree: 'Yoq',
+  academicTitle: 'Yoq',
+  languages: [
+    {
+      id: '1',
+      language: 'Ingliz',
+      certificate: 'CEFR',
+      certNumber: '24BBA1104811XN',
+      validity: '10.01.2024 - 09.01.2026',
+    },
+  ],
+  stateAwards: 'Yoq',
+  electedOfficial: 'Yoq',
+  workHistory: [
+    {
+      id: '1',
+      period: '2025 y. - x.v.',
+      position: 'Berdaq nomidagi qoraqalpoq davlat universiteti Iqtisodiyot fakulteti Moliya va moliyaviy texnologiyalar bakalavr talim yónalishi talabasi',
+    },
+  ],
+  relatives: [
+    {
+      id: '1',
+      relation: 'Otasi',
+      fio: 'Ramatullaev Orínbay Xabibullaevich',
+      birthAndPlace: "1977-yil\nÓzbekiston Respublikasi,\nQoraqalpog'iston Respublikasi\nChomanay tumani",
+      workAndPosition: 'Vafot etgan',
+      residence: '',
+    },
+    {
+      id: '2',
+      relation: 'Onasi',
+      fio: 'Uzakova Dilafruz Abbasovna',
+      birthAndPlace: "1982-yil,\nÓzbekiston Respublikasi,\nQoraqalpog'iston Respublikasi\nXojayli tumani",
+      workAndPosition: 'Xojayli tumani 18-sonli umumtalim maktabi oqituvchisi',
+      residence: "Qoraqalpog'iston Respublikasi Xojayli tumani Bayterek MFY, T.Ibragimov kóchasi 47-uy, 6-xonadon",
+    },
+    {
+      id: '3',
+      relation: 'Ukasi',
+      fio: "Xabibullaev Nurqasim Orínbay og’li",
+      birthAndPlace: "2007-yil,\nÓzbekiston Respublikasi,\nQoraqalpog'iston Respublikasi,\nXojayli tumani",
+      workAndPosition: 'Vaqtincha ishsiz',
+      residence: "Qoraqalpog'iston Respublikasi Xojayli tumani Bayterek MFY, T.Ibragimov kóchasi 47-uy, 6-xonadon",
+    },
+  ],
+  homeAddress: "Qoraqalpog'iston Respublikasi Xojayli tumani Bayterek MFY, T.Ibragimov kóchasi 47-uy, 6-xonadon",
+  phone: '+99890 422-57-22',
+};
+
+export const emptyObektivkaData: ObektivkaData = {
+  fio: '',
+  currentStatusDate: '',
+  currentPosition: '',
+  photoUrl: '',
+  birthDate: '',
+  birthPlace: '',
+  nationality: "O'zbek",
+  partyMembership: 'Yoq',
+  education: 'Oliy',
+  graduated: '',
+  specialization: '',
+  academicDegree: 'Yoq',
+  academicTitle: 'Yoq',
+  languages: [],
+  stateAwards: 'Yoq',
+  electedOfficial: 'Yoq',
+  workHistory: [],
+  relatives: [],
+  homeAddress: '',
+  phone: '',
+};
